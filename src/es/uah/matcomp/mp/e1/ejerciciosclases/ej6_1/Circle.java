@@ -1,4 +1,6 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases;
+package es.uah.matcomp.mp.e1.ejerciciosclases.ej6_1;
+
+import es.uah.matcomp.mp.e1.ejerciciosclases.Shape;
 
 public class Circle extends Shape {
     protected double radius;

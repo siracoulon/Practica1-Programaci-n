@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases;
+package es.uah.matcomp.mp.e1.ejerciciosclases.ej6_1;
 
 public class Square extends Rectangle {
     /** Constrcutor por defecto que llama a rectangle*/
@@ -6,12 +6,12 @@ public class Square extends Rectangle {
         super();
     }
     /** Constructor dado el lado que llama a rectangle*/
-    public Square(int lado){
+    public Square(double lado){
         super(lado, lado);
     }
     /** Constror dado lado que llama a Rectangle
      * y dados color y filled que llaman a Shape*/
-    public Square(int lado, String color, boolean filled){
+    public Square(double lado, String color, boolean filled){
         super(lado, lado, color, filled);
     }
     /** Devuelve el lado*/

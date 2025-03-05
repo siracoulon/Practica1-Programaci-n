@@ -1,4 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases.otrocliente;
+package es.uah.matcomp.mp.e1.ejerciciosclases.ej2_5;
 
 public class Customer {
     private int id;

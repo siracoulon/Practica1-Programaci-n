@@ -1,6 +1,4 @@
-package es.uah.matcomp.mp.e1.ejerciciosclases;
-
-import java.awt.*;
+package es.uah.matcomp.mp.e1.ejerciciosclases.ej2_6_7_8;
 
 public class MyPoint {
     private int x;
