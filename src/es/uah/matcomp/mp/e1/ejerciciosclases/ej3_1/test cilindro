@@ -1,0 +1,15 @@
+public class TestCylinder {
+    public static void main (String[] args) {
+        Cylinder c1 = new Cylinder();
+        System.out.println("cilindro:"
+                + "radius=" + c1.getRadius() + "height=" + c1.getHeight() + "area=" + c1.getArea() + "volume=" + c1.getVolume());
+        Cylinder c2 = new Cylinder(10);
+        System.out.println("cilindro:"
+                + "radius=" + c2.getRadius() + "height=" + c2.getHeight() + "area=" + c2.getArea() + "volume=" + c2.getVolume());
+        Cylinder c3 = new Cylinder(2,10);
+        System.out.println("cilindro:"
+                + "radius=" + c3.getRadius() + "height=" + c3.getHeight() + "area =" + c3.getArea() + "volume=" + c3.getVolume());
+
+    }
+
+}
