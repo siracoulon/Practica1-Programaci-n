@@ -1,0 +1,6 @@
+public class TestPerson {
+    public static void main(String[] args) {
+        Person person = new Person("natalia","coslada");
+        System.out.println(person.toString());
+    }
+}
