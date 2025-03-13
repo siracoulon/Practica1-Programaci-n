@@ -1,0 +1,6 @@
+public class TestStaff {
+    public static void main(String[] args) {
+        Staff staff1 = new Staff("natalia","coslada","uah",8000);
+        staff1.toString();
+    }
+}
