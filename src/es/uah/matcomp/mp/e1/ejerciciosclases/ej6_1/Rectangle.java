@@ -50,6 +50,6 @@ public class Rectangle extends Shape {
     /** toString */
     @Override
     public String toString() {
-        return "Rectangle[" + super.toString() + "length=" + length + ",width=" + width + "]";
+        return "Rectangle[" + super.toString() + ",width=" + width + ",length=" + length + "]";
     }
 }

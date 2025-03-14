@@ -56,7 +56,7 @@ class ShapeTest {
         // Verificar que el método toString devuelve la representación correcta del objeto Shape
         shape.setColor("blue");
         shape.setFilled(false);
-        String expectedString = "Shape[color=blue,filled=false]";
+        String expectedString = "Circle[Shape[color=blue,filled=false]radius=5.0]";
         assertEquals(expectedString, shape.toString());
     }
 

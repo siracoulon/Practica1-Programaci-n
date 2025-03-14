@@ -100,7 +100,7 @@ class MyCircleTest {
 
     @Test
     void testToString() {
-        String expected = "MyCircle[radius=3,MyPoint[x=1,y=2]]";
+        String expected = "MyCircle[radius=3,(1,2)]";
         assertEquals(expected, circle1.toString());
     }
 

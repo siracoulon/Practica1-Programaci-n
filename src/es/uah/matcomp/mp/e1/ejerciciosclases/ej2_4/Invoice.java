@@ -45,6 +45,6 @@ public class Invoice {
     }
     /** toString */
     public String toString() {
-        return "Invoice [id=" + id + "," + customer.toString() + ", amount=" + amount + "]";
+        return "Invoice [id=" + id + ", customer=" + customer.toString() + ", amount=" + amount + "]";
     }
 }

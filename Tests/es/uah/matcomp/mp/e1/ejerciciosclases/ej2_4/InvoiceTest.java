@@ -65,7 +65,7 @@ class InvoiceTest {
 
     @Test
     void testToString() {
-        String expected = "Invoice [id=101,Customer[id=1,name=John Doe,discount=10], amount=100.0]";
+        String expected = "Invoice [id=101, customer=John Doe(1)(10%), amount=100.0]";
         assertEquals(expected, invoice.toString());
     }
 }

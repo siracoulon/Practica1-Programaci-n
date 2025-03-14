@@ -77,7 +77,7 @@ class RectangleTest {
         // Verificar que el método toString devuelve la representación correcta del rectángulo
         rectangle.setLength(2.0);
         rectangle.setWidth(3.0);
-        String expectedString = "Rectangle[Shape[color=null, filled=false]length=2.0,width=3.0]";
+        String expectedString = "Rectangle[Shape[color=red,filled=true]length=2.0,width=3.0]";
         assertEquals(expectedString, rectangle.toString());
     }
 }

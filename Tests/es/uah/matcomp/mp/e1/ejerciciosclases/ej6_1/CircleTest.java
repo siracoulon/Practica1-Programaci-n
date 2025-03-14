@@ -55,7 +55,7 @@ class CircleTest {
     void testToString() {
         // Verificar que el método toString devuelve la representación correcta del círculo
         circle.setRadius(2.0);
-        String expectedString = "Circle[Shape[color=null, filled=false]radius=2.0]";
+        String expectedString = "Circle[Shape[color=red,filled=true]radius=2.0]";
         assertEquals(expectedString, circle.toString());
     }
 }

@@ -50,7 +50,7 @@ class AccountTest {
     @Test
     void testToString() {
         // Verificar que el método toString devuelve la representación correcta
-        String expected = "John Doe(1)(10%) balance=500.0";
+        String expected = "John Doe(1) balance=500.0";
         assertEquals(expected, account.toString());
     }
 

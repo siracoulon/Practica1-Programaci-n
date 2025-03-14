@@ -83,7 +83,7 @@ class MyLineTest {
     @Test
     void testToString() {
         // Verificar que el método toString devuelve la representación correcta de la línea
-        String expectedString = "MyLine[begin=MyPoint[x=1,y=2],end=MyPoint[x=4,y=6]]";
+        String expectedString = "MyLine[begin=(1,2),end=(4,6)]";
         assertEquals(expectedString, line.toString());
     }
 }

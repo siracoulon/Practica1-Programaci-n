@@ -31,4 +31,11 @@ public class MovablePoint implements Movable {
     public void moveRight() {
         x += xSpeed;
     }
+    // Métodos getter para las coordenadas
+    public int getX() {
+        return x;
+    }
+    public int getY() {
+        return y;
+    }
 }
