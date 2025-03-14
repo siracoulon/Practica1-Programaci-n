@@ -1,3 +1,5 @@
+package es.uah.matcomp.mp.e1.ejerciciosclases.ej3_3;
+
 public class Point2D {
     private float x;
     private float y;
@@ -33,4 +35,5 @@ public class Point2D {
     }
 
 }
+
 

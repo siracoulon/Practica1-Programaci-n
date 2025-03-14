@@ -1,3 +1,5 @@
+package es.uah.matcomp.mp.e1.ejerciciosclases.ej3_2;
+
 public class Student extends Person {
     private String program;
     private int year;
@@ -15,23 +17,24 @@ public class Student extends Person {
     public String getProgram() {
         return program;
     }
-public void setProgram(String program) {
+    public void setProgram(String program) {
         this.program = program;
-}
-public int getYear() {
+    }
+    public int getYear() {
         return year;
-}
-public void setYear(int year) {
+    }
+    public void setYear(int year) {
         this.year = year;
-}
-public double getFee() {
+    }
+    public double getFee() {
         return fee;
-}
-public void setFee(double fee) {
+    }
+    public void setFee(double fee) {
         this.fee = fee;
-}
-@Override
-public String toString() {
+    }
+    @Override
+    public String toString() {
         return "Student: "+super.toString()+",[program= " + program + ", year= " + year + ", fee= " + fee + "]";
+    }
 }
-}
+

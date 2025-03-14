@@ -1,3 +1,5 @@
+package es.uah.matcomp.mp.e1.ejerciciosclases.ej3_3;
+
 public class Point3D extends Point2D{
     private float z;
     public Point3D(float x, float y, float z) {
@@ -26,7 +28,8 @@ public class Point3D extends Point2D{
         return new float[]{getX(), getY(), z};
     }
     public String toString() {
-return "(" + getX() + ", " + getY() + ", " + getZ() + ")";
+        return "(" + getX() + ", " + getY() + ", " + getZ() + ")";
     }
 
 }
+

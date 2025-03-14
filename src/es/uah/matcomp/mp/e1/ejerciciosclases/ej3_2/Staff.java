@@ -1,3 +1,5 @@
+package es.uah.matcomp.mp.e1.ejerciciosclases.ej3_2;
+
 public class Staff extends Person {
     private String school;
     private double pay;
@@ -28,3 +30,4 @@ public class Staff extends Person {
     }
 
 }
+

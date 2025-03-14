@@ -1,3 +1,5 @@
+package es.uah.matcomp.mp.e1.ejerciciosclases.ej3_2;
+
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -31,3 +33,4 @@ public class PersonTest {
         assertEquals(expectedString, person.toString());
     }
 }
+

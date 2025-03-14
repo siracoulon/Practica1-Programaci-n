@@ -1,3 +1,5 @@
+package es.uah.matcomp.mp.e1.ejerciciosclases.ej3_2;
+
 public class Person {
     private String name;
     private String address;
@@ -22,3 +24,4 @@ public class Person {
         return "[name= " + name+ ", address= " + address + "]";
     }
 }
+

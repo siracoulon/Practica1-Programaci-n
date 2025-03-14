@@ -1,3 +1,5 @@
+package es.uah.matcomp.mp.e1.ejerciciosclases.ej3_1;
+
 public class Circle {
     private double radius;
     private String color;
@@ -41,3 +43,4 @@ public class Circle {
         return "Circle [radius=" + radius + ", color=" + color + "]";
     }
 }
+
